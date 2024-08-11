@@ -1,0 +1,163 @@
+
+.run-extra{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+    padding-left: 50px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+}
+
+.run-extra-texts{
+    width: 30.77vw;
+}
+
+.run-extra-title{
+    font-size: 3rem;
+    font-weight: 900;
+    /* margin-top: -10px; */
+}
+
+.run-extra-details{
+    font-size: .875rem;
+    opacity: .5;
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.run-extra-btn{
+    width: 224px;
+    height: 54px;
+    font-size: 1.125rem;
+    border-radius: 42px;
+    border: none;
+    background-color: rgb(230, 83, 60);
+    margin-top: 40px;
+}
+
+
+.run-extra-banner{
+    width: 25.42vw;
+    object-fit: cover;
+   
+    overflow: hidden;
+    /* aspect-ratio: 16 / 9; */
+    height: 312px;
+    position: relative;
+    border-radius: 18px;
+     /* background-image: url(../images/run.jpg); */
+    /* background-position: center top;  */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: -750px -210px; */
+    
+}
+
+.run-extra-banner>img{
+    width:100%; 
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    
+    transform: scale(2.5);
+    
+
+
+    left: -170px;
+    top: 90px;
+    /* transform: scale(.9); */
+
+    /* object-fit: cover;
+    object-position: -50% -100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;  */
+   
+ 
+
+}
+
+
+@media screen and (max-width:992px) and (min-width:576px) {
+    
+    .run-extra{
+        padding: 40px;
+        padding-left: 54px;
+    }
+    .run-extra-title{
+        font-size: 2rem;
+    }
+    .run-extra-details{
+        margin-top: 14px;
+    }
+    .run-extra-btn{
+        margin-top: 4.7vw;
+    }
+
+    .run-extra-banner{
+        height: 312px;
+        width: 34.5vw;
+        min-width: 256px;
+    }
+
+    .run-extra-banner>img{
+        transform: scale(1.8);
+        left: -100px;
+        top: 70px;
+    }
+
+
+}
+
+
+ @media screen and (max-width:576px) {
+
+    .run-extra{
+        box-sizing: border-box;
+        flex-direction: column;
+        padding: 31px 30px;
+        width: 90vw;
+    }
+
+    .run-extra-texts{
+        width: 100%;
+    }
+    
+    .run-extra-title{
+        font-size: 2rem;
+
+    }
+
+    .run-extra-btn{
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .run-extra-banner{
+       
+        width: 73vw;
+        height: 43.25vw;
+        margin-top: 31px;
+        
+    }
+
+    .run-extra-banner>img{
+        transform: scale(1.5);
+        left: -40px;
+        top: 40px;
+    }
+
+
+
+}
+
+@media screen and (max-width:360px) {
+    .run-extra-banner>img{
+       transform: scale(1.8);
+        left: -40px;
+        top: 40px;
+    }
+
+}
