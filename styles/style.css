@@ -29,7 +29,7 @@ body{
 
 /* header styles */
 header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(59, 59, 59, 0.664),rgb(6, 6, 6));
     
     padding-top: 4%;
 
@@ -262,6 +262,10 @@ nav ul li{
     text-align: left;
 }
 
+.poly2{
+    display: none;
+}
+
 
 
 
@@ -269,12 +273,30 @@ nav ul li{
 
 
 @media screen and (max-width:992px) and (min-width:576px) {
-    nav{
+
+    .shapper-class{
         width: 90%;
+    }
+    nav{
+        width: 95%;
+        
     }
     nav ul {
         width: 50%;
     }
+
+    .hero{
+        flex-direction: column;
+        margin-top: 75px;
+    }
+
+    .hero-description{
+        width: 80.6%;
+        
+    
+    }
+
+
 }
 
 
@@ -308,5 +330,98 @@ nav ul li{
     .nav-title{
         font-size: 2rem;
     }
+
+    .hero{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .hero-title{
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 120%;
+    }
+
+    .shapper-class{
+        width: 90%;
+    }
+    .hero-description{
+        width: 100%;
+        
+    
+    }
+
+    .hero-button-container{
+        width: 100%;
+    }
+
+    .shape-text{
+        font-size: 5.5rem;
+    }
+
+    .hero-title{
+        width: 80%;
+        line-height: 150%;
+    }
+
+    .hero-image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .workout-video{
+        width: 146px;
+        height: 74px;
+        gap: 5px;
+        top: 10%;
+        left: 61%;
+        padding-left: 18px;
+    }
+
+    .workout-video>p{
+        font-size: 9px;
+    }
+
+    .workout-video-number{
+        font-size: .92rem;
+    }
+
+    .tutorial{
+
+        width: 156px;
+        height: 73px;
+        top: 47%;
+        left: -41%;
+    }
+
+    .tutorial-number{
+        font-size: 1.13rem;
+        letter-spacing: 0.23px;
+    }
+
+    .tutorial-details>div{
+        font-size: .75rem;
+        letter-spacing: 0.38px;
+    }
+
+    .play-icon{
+        height: 30px;
+        width: 30px;
+    }
+
+    .poly2{
+        display: inline;
+    }
+
+    .poly1{
+        display: none;
+    }
+
+
+
+    
+
+
     
 }
