@@ -8,6 +8,7 @@
     padding-left: 50px;
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
+    box-sizing: border-box;
 }
 
 .run-extra-texts{
