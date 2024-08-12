@@ -1,0 +1,21 @@
+.bmi-cal-title{
+    margin-top: 78px;
+    /* width: 46.6vw; */
+    max-width: 671px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bmi-title{
+    font-size: 3rem;
+    font-weight: 900;
+    
+}
+
+.bmi-cal-details{
+    font-size: .875rem;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    opacity: .5;
+    
+}
