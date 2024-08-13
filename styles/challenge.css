@@ -1,0 +1,118 @@
+
+.challenge{
+    width: 73.6vw;
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.challenge-title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.challenge-details{
+    font-size: .875rem;
+    opacity: .5;
+    font-weight: 300;
+    text-align: center;
+    max-width: 671px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 14px;
+    line-height: 24px;
+}
+
+.challenge-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-rows: repeat(2,1fr); */
+    grid-template-rows: repeat(2,max-content);
+    gap: 20px;
+    row-gap: 25px;
+    margin-top: 40px;
+    background-color: rgba(255,255,255,.1);
+    padding: 20px 40px 20px 40px;
+    border-radius: 18px;
+}
+
+.challenge-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+
+.exercise-title{
+    text-align: center;
+
+}
+
+.challenge-gif-container{
+    margin-top: 12px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.challenge-gif-container::before {
+    content: "";
+    /* display: block; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    background-color: rgba(46, 45, 45, 0.053); 
+  }
+
+
+.challenge-gif-container>img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.exercise-count{
+    font-size: 1.375rem;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.exercise-benifits{
+    font-size: .875rem;
+    opacity: .5;
+    font-weight: 300;
+    max-width: 85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+@media screen and (max-width:576px) {
+
+    .challenge-card-container{
+        grid-template-columns: repeat(1,1fr);
+        padding: 15px 25px 20px 25px;
+    }
+
+    .challenge{
+        width: 90vw;
+    }
+
+    .challenge-details{
+        margin-top: 10px;
+    }
+
+    .challenge-title{
+        font-size: 2rem;
+    }
+
+    .exercise-title{
+        font-size: 1.5rem;
+    }
+
+}
