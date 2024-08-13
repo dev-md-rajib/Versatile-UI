@@ -20,7 +20,7 @@
 
 body{
     background-color: black;
-    padding-bottom: 1000px;
+    /* padding-bottom: 1000px; */
 }
 
 /* header styles */
@@ -82,7 +82,7 @@ nav ul li{
 
 .selected-nav{
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* width: 19.78%; */
     
     font-weight: 600;

@@ -46,13 +46,15 @@
 
 .exercise-title{
     text-align: center;
-
+    
 }
 
 .challenge-gif-container{
     margin-top: 12px;
     border-radius: 16px;
     position: relative;
+    /* height: 400px; */
+   
 }
 
 .challenge-gif-container::before {
@@ -79,6 +81,7 @@
     font-size: 1.375rem;
     text-align: center;
     margin-top: 6px;
+    color: rgb(220, 220, 220);
 }
 
 .exercise-benifits{
@@ -89,14 +92,29 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8px;
+    margin-top: 2px;
 }
+
+
+
+
+
+
+@media screen and (max-width:992px) and (min-width:576px) {
+
+    .challenge{
+        width: 90vw;
+    }
+}
+
+
+
 
 @media screen and (max-width:576px) {
 
     .challenge-card-container{
         grid-template-columns: repeat(1,1fr);
-        padding: 15px 25px 20px 25px;
+        padding: 15px 15px 20px 15px;
     }
 
     .challenge{
