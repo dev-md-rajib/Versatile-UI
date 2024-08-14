@@ -96,6 +96,47 @@
     margin-top: 2px;
 }
 
+.card4{
+    /* object-fit: fill;
+    position: relative; */
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.gif4 {
+    height: auto; 
+    width: auto; 
+    max-width: 350px; 
+    max-height: 400px;
+    object-fit: fill;
+
+
+}
+
+.card3{
+    /* object-fit: fill;
+    position: relative; */
+
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.gif3 {
+    height: auto; 
+    width: auto; 
+    max-width: 450px; 
+    max-height: 400px;
+    object-fit: fill;
+
+
+}
+
 
 
 
@@ -134,4 +175,25 @@
         font-size: 1.5rem;
     }
 
+    
+    .card1{
+        /* object-fit: fill;
+        position: relative; */
+    
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    
+    }
+    
+    .gif1 {
+        height: auto; 
+        width: auto; 
+        max-width: 400px; 
+        max-height: 360px;
+        object-fit: fill;
+    
+    
+    }
 }
