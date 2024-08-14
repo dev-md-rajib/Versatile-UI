@@ -136,6 +136,8 @@ hr{
     hr{
         margin-top: 72px;
         width: 90vw;
+        /* border: 1px solid rgba(255, 255, 255, 0.114); */
+        
     }
 
     .copyright{

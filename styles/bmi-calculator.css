@@ -17,6 +17,7 @@
     line-height: 24px;
     letter-spacing: 0.3px;
     opacity: .5;
+    font-weight: 300;
     
 }
 
@@ -68,6 +69,7 @@ table, th, td {
   td{
     font-size: .875rem;
     opacity: .5;
+    font-weight: 300;
   }
 
   th:nth-child(2n+1), td:nth-child(2n+1){
@@ -104,6 +106,7 @@ table, th, td {
     opacity: .5;
     line-height: 24px;
     margin-top: 14px;
+    font-weight: 300;
   }
 
   .calculator-form{
@@ -153,12 +156,13 @@ table, th, td {
   }
 
   .item1::placeholder,.item2::placeholder,.item3::placeholder{
-    color:rgba(255, 255, 255, 0.5)
+    color:rgba(255, 255, 255, 0.5);
+    font-weight: 300;
   }
 
   select{
     color: rgba(255, 255, 255, 0.5);
-    font-weight: 400;
+    font-weight: 300;
     /* padding-right: 20px; */
   }
 
