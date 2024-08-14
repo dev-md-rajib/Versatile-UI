@@ -235,6 +235,7 @@ table, th, td {
 
     .bmi-calculator{
         padding-top: 34px;
+        margin-top: 32px;
     }
 
     .bmi-table{
@@ -247,6 +248,10 @@ table, th, td {
 
     .input-container > * {
         min-width: 0;
+    }
+
+    .bmi-cal-details{
+      margin-top: 14px;
     }
    
 

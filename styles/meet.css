@@ -111,5 +111,25 @@
         width: 90vw;
     }
 
+    .meet-card-jerome, .meet-card-dianne{
+        display: none;
+    }
+
+    .meet-card-cameron{
+        order: 1;
+    }
+
+    .meet-card-cody{
+        order: 2;
+    }
+
+    .meet-card-darrel{
+        order: 3;
+    }
+
+    .meet-card-theresa{
+        order: 4;
+    }
+
 
 }

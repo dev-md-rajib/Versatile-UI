@@ -147,6 +147,10 @@ nav ul li{
 
 }
 
+.hero-btn-join2{
+    display: none;
+}
+
 .hero-btn-download{
     flex: 1;
     background-color: transparent;
@@ -351,6 +355,14 @@ nav ul li{
         width: 100%;
     }
 
+    .hero-btn-join{
+        display: none;
+    }
+
+    .hero-btn-join2{
+        display: inline;
+    }
+
     .shape-text{
         font-size: 5.5rem;
     }
@@ -364,6 +376,10 @@ nav ul li{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .hero-details{
+        max-width: 70vw;
     }
 
     .workout-video{
