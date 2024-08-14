@@ -256,6 +256,11 @@ table, th, td {
 
     .bmi-cal-details{
       margin-top: 14px;
+      max-width: 90%;
+    }
+
+    .calculator-details{
+      max-width: 90%;
     }
    
 

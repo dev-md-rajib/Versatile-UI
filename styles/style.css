@@ -368,12 +368,13 @@ nav ul li{
     }
 
     .shape-text{
-        font-size: 5.5rem;
+        font-size: 4.8rem;
+        font-weight: 300;
     }
 
     .hero-title{
-        width: 80%;
-        line-height: 150%;
+        width: 60%;
+        line-height: 140%;
     }
 
     .hero-image-container{
@@ -400,7 +401,8 @@ nav ul li{
     }
 
     .workout-video-number{
-        font-size: .92rem;
+        /* font-size: .92rem; */
+        font-size: 1.875rem;
     }
 
     .tutorial{
